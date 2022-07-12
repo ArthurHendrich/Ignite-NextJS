@@ -1,0 +1,41 @@
+.image {
+  margin-top: 2.5rem;
+
+  img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+}
+
+.content {
+  margin-top: 5rem;
+  color: var(--Heading);
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+    font-size: 0.875rem;
+    color: var(--Info);
+
+    div {
+      margin-right: 1.5rem;
+
+      span {
+        margin-left: 0.5rem;
+      }
+    }
+
+  }
+}
+
+.Contents {
+  background-color: red;
+}

@@ -1,0 +1,46 @@
+.Container {
+  margin-top: 4.0625rem;
+
+  h1 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--Heading);
+  }
+
+  p {
+    margin-top: 0.5rem;
+    font-size: 1.125rem;
+    color: var(--Body);
+  }
+
+  .ContentInfo {
+    display: flex;
+    font-size: 0.8765rem;
+    align-items: center;
+    color: var(--Info);
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+
+    .Date {
+      margin-right: 1.5rem;
+    }
+  }
+}
+
+.Button {
+  margin-top: 4rem;
+
+  button {
+    border: 0;
+    background: transparent;
+    color: var(--Highlight);
+    font-size: 1.125rem;
+    font-weight: 600;
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+}

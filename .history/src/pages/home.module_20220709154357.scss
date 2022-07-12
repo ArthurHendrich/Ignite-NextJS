@@ -1,0 +1,25 @@
+.Container {
+  margin-top: 4.0625rem;
+
+  h1 {
+    font-size: 1.7rem;
+    color: var(--Heading);
+  }
+
+  p {
+    margin-top: 0.5rem;
+    font-size: 1.125rem;
+    color: var(--Body);
+  }
+
+  .ContentInfo {
+    display: flex;
+    align-items: center;
+    color: var(--Info);
+    margin-top: 1.5rem;
+
+    .Date {
+
+    }
+  }
+}

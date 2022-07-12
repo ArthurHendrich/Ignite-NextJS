@@ -1,0 +1,10 @@
+import styles from './header.module.scss';
+
+export default function Header() {
+  return (
+    <header className={styles.Container}>
+        <img src="images/Vector.png" alt="logo-icon"/>
+        spacetraveling<span>.</span>
+    </header>
+  )
+}

@@ -1,0 +1,32 @@
+.image {
+  margin-top: 2.5rem;
+
+  img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+}
+
+.content {
+  margin-top: 5rem;
+  color: var(--Heading);
+
+  .info {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    color: var(--Info);
+
+    div {
+      margin-right: 2rem;
+
+      span {
+        margin-left: 0.5rem;
+      }
+    }
+
+  }
+
+
+}
